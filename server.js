@@ -1,5 +1,5 @@
 var express = require("express");
-
+var connection = require("./config/connection")
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override')
 
